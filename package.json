@@ -9,7 +9,7 @@
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build",
-    "generate": "openapi --input ./spec.json --output ./generated --client axios"
+    "generate": "openapi --input ./src/openapi/example.json --output ./src/generated --client axios"
   },
   "keywords": [],
   "author": "",
